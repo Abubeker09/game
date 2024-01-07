@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock Paper Scissors Game</title>
+	<link rel="stylesheet" type="text/css" href="stayle.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Rock Paper Scissors Game</h1>
+		<div class="scoreboard">
+			<h2>Scoreboard</h2>
+			<p id="player-score">Player: 0</p>
+			<p id="computer-score">Computer: 0</p>
+		</div>
+		<div class="gameboard">
+			<div class="player-choice">
+				<h2>Player</h2>
+				<button id="rock ✊" onclick="playerChoice('rock ✊')"><img class="moves" src="icon/rock1.png" alt="rock"></button>
+        <button id="paper ✋" onclick="playerChoice('paper ✋')"><img class="moves" src="icon/paper.png" alt="paper"></button>
+        <button id="scissors ✌️" onclick="playerChoice('scissors ✌️')"><img class="moves" src="icon/scissor.png" alt="scissors"></button>
+			</div>
+			<div class="computer-choice">
+				<h2>Computer</h2>
+				<p id="computer-text">Choose your move!</p>
+			</div>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>

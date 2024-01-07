@@ -1,0 +1,74 @@
+body{
+  background-color: rgb(6, 14, 14);
+  text-align: center;
+}
+.container {
+  color: aliceblue;
+	max-width: 800px;
+	margin: auto;
+	text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+	font-size: 3rem;
+	margin-top: 2rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.scoreboard {
+  border: 200px;
+	border: 2px solid rgb(107, 245, 233);;
+  border-radius: 40px;
+	padding: 1rem;
+	margin-top: 2rem;
+  box-shadow: 10px 10px 10px rgb(43, 104, 101);
+  font-size: 30px;
+}
+
+.gameboard {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 2rem;
+}
+
+.player-choice, .computer-choice {
+	width: 30%;
+	padding: 1rem;
+	border: 2px solid rgb(136, 255, 245);
+  border-radius: 40px;
+  box-shadow: 10px 10px 10px rgb(43, 104, 101);
+}
+
+button {
+  cursor: pointer;
+  width: 80px;
+  height: 80px;
+	font-size: 30px;
+	padding: 3px;
+	margin: 10px;
+  border-radius: 50px;
+}
+
+button:hover{
+  box-shadow: 3px 5px 10px rgb(136, 255, 245);
+}
+
+#computer-text {
+	font-size: 1.5rem;
+	font-weight: bold;
+  padding-right: 5px;
+}
+
+.result {
+	font-size: 2rem;
+	font-weight: bold;
+	margin-top: 2rem;
+}
+.moves{
+  width: 50px;
+  font-weight: bold;
+}
+.moves:hover{
+  animation: backwards;
+}
